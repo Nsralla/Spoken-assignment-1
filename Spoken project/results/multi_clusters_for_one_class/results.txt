@@ -1,0 +1,72 @@
+ k =3 for both white and asian:
+ PS C:\Users\nsrha\OneDrive\Desktop\Spoken project\scripts> python .\classifier.py
+accuracy:  0.55
+
+ classification report:
+               precision    recall  f1-score   support
+
+           1       0.55      0.60      0.57        20
+
+    accuracy                           0.55        40
+   macro avg       0.55      0.55      0.55        40
+weighted avg       0.55      0.55      0.55        40
+
+/////////////////////////////////////////////////////////
+k = 5 for both classes
+accuracy:  0.675
+
+ classification report:
+               precision    recall  f1-score   support
+
+           0       0.63      0.85      0.72        20
+           1       0.77      0.50      0.61        20
+
+    accuracy                           0.68        40
+   macro avg       0.70      0.68      0.66        40
+weighted avg       0.70      0.68      0.66        40
+///////////////////////////////////
+n_clusters_asian = 9
+n_clusters_white = 12
+accuracy:  0.75
+
+ classification report:
+               precision    recall  f1-score   support
+
+           0       0.73      0.80      0.76        20
+           1       0.78      0.70      0.74        20
+
+    accuracy                           0.75        40
+   macro avg       0.75      0.75      0.75        40
+weighted avg       0.75      0.75      0.75        40
+///////////////////////////////////////////////////////////
+n_clusters_asian = 8
+n_clusters_white = 14
+accuracy:  0.7
+
+ classification report:
+               precision    recall  f1-score   support
+
+           0       0.67      0.80      0.73        20
+           1       0.75      0.60      0.67        20
+
+    accuracy                           0.70        40
+   macro avg       0.71      0.70      0.70        40
+weighted avg       0.71      0.70      0.70        40
+/////////////////////////
+n_clusters_asian = 9
+n_clusters_white = 10
+accuracy:  0.825
+
+ classification report:
+               precision    recall  f1-score   support
+
+           0       0.78      0.90      0.84        20
+           1       0.88      0.75      0.81        20
+
+    accuracy                           0.82        40
+   macro avg       0.83      0.82      0.82        40
+weighted avg       0.83      0.82      0.82        40
+///////////////////
+The plot will show:
+
+Clusters: Points distributed across the 2D space.

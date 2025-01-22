@@ -1,0 +1,13 @@
+Best parameters: (14, 8) with accuracy: 0.875
+     precision    recall  f1-score   support
+
+           0       0.89      0.85      0.87        20
+           1       0.86      0.90      0.88        20
+
+    accuracy                           0.88        40
+   macro avg       0.88      0.88      0.87        40
+weighted avg       0.88      0.88      0.87        40
+//////////////////
+A decision boundary plot shows the regions where the GMM assigns each class. It’s particularly helpful for 2D or reduced-dimensionality data.
+//////////////////
+Cluster Ellipses: Visualizes the shape and spread of clusters.
